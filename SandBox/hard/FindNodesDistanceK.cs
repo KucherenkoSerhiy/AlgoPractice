@@ -15,7 +15,7 @@
         }
 
         // O(V + E) Time | O(V + E), where V = number of vertices and E = number of edges in the tree
-        // O(n) Time | O(n), where n = number of nodes in the tree
+        // i.e. O(n) Time | O(n), where n = number of nodes in the tree
         public List<int> Solution(BinaryTree tree, int target, int k)
         {
             var parents = new Dictionary<int, BinaryTree>();
